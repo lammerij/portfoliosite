@@ -5,6 +5,9 @@ const Footer = () => {
   return (
     <div className="py-5 text-center">
       <div container max-w-screen-lg mx-auto>
+        <a href='hero'>
+        <h4 className="text-white"><u>Back To Top</u></h4>
+        </a>
         <h1 className="max-w-md w-full text-l font-bold text-[hsl(0,13%,97%)] mx-auto justify-center text-center">
           Jonathan|Lammering
         </h1>
