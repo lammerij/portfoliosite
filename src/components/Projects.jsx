@@ -86,11 +86,17 @@ const Projects = () => {
             </div>
           </div>
           <div className="card">
-            <img
-              class="w-full"
-              src="/Screen Shot 2023-03-20 at 3.48.07 PM.png"
-              alt="Portfolio"
-            />
+            <a
+              href="https://github.com/lammerij/portfoliosite"
+              target="blank"
+              alt="github"
+            >
+              <img
+                class="w-full"
+                src="/Screen Shot 2023-03-20 at 3.48.07 PM.png"
+                alt="Portfolio"
+              />
+            </a>
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2 text-center">Portfolio</div>
               <p class="text-gray-700 text-base">
