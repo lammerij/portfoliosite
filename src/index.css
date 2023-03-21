@@ -1,10 +1,13 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
-
 
 body {
   background-color: black;
+  color: white;
+}
+
+.projectimage {
+  width: 400px;
+  height: 250px;
 }
