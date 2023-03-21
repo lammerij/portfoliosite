@@ -6,8 +6,8 @@ import './Navbar.css'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [setClick] = useState(false);
-  // const handleClick = () => setClick(!click);
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
 
   const closeMenu = () => setClick(false);
 
