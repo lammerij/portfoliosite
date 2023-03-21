@@ -1,13 +1,14 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin, FaMedium } from "react-icons/fa";
+import Link from 'react-scroll'
 
 const Footer = () => {
   return (
     <div className="py-5 text-center">
       <div container max-w-screen-lg mx-auto>
-        <a href='hero'>
-        <h4 className="text-white"><u>Back To Top</u></h4>
-        </a>
+        <Link to="hero">
+          <h4 className="text-black">Back To Top</h4>
+        </Link>
         <h1 className="max-w-md w-full text-l font-bold text-[hsl(0,13%,97%)] mx-auto justify-center text-center">
           Jonathan|Lammering
         </h1>
