@@ -1,10 +1,9 @@
 import React from "react";
 import logo from "../pics/logo.png";
-import { FaGithubSquare, FaLinkedin, FaMedium } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="text-white">
+    <div className="text-white" id='hero'>
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6"></h1>
         <img
@@ -19,14 +18,6 @@ const Hero = () => {
               Jonathan | Lammering
             </h1>
             <p>Full Stack Software Engineer</p>
-            <p>
-              As a former senior level Healthcare Administrator who has
-              transitioned to Software Engineering, I am eager to apply my
-              problem solving abilities, analytical skills, and team building
-              expertise, along with my recent acquisition of knowledge in JS,
-              REACT, and Ruby/Rails, to make a positive impact on the tech
-              industry and further my growth as an engineer. See some of the projects I've worked on <a>here.</a>
-            </p>
             <div className="flex md:w-[75%] my-5 text-center justify-center mx-auto">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -116,29 +107,6 @@ const Hero = () => {
                   </g>
                 </g>
               </svg>
-            </div>
-            <div className="flex flex-wrap justify-center gap-2">
-              <a href="https://github.com/lammerij" target="blank">
-                <FaGithubSquare
-                  className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
-                  size={30}
-                />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/jonathan-lammering-206247103/"
-                target="blank"
-              >
-                <FaLinkedin
-                  className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
-                  size={30}
-                />
-              </a>
-              <a href="https://medium.com/@jonathan.lammering" target="blank">
-                <FaMedium
-                  className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
-                  size={30}
-                />
-              </a>
             </div>
           </div>
         </div>
