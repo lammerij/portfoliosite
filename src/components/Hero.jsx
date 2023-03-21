@@ -3,9 +3,8 @@ import logo from "../pics/logo.png";
 
 const Hero = () => {
   return (
-    <div className="text-white" id='hero'>
+    <div className="text-white" id="hero">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6"></h1>
         <img
           className="inline-block h-80 w-80 ring-2 ring-black mx-auto"
           src={logo}
