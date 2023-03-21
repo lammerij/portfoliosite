@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin, FaMedium } from "react-icons/fa";
-import Link from 'react-scroll'
 
 const Footer = () => {
   return (
