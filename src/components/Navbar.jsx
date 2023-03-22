@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll"
+import { Link } from "react-scroll";
 import logo from "../pics/logo.png";
-import './Navbar.css'
+import "./Navbar.css";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,8 +17,10 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-      <Link to='hero'><img src={logo} className="h-10 w-10 mr-4" alt="logo" /></Link>
-      
+      <Link to="hero">
+        <img src={logo} className="h-10 w-10 mr-4" alt="logo" />
+      </Link>
+
       <ul className="hidden md:flex">
         <li className="p-4">
           <Link
@@ -28,6 +30,7 @@ const Navbar = () => {
             offset={50}
             duration={500}
             onClick={closeMenu}
+            className="cursor-pointer hover:text-[#fafbfc]"
           >
             Home
           </Link>
@@ -40,6 +43,7 @@ const Navbar = () => {
             offset={50}
             duration={500}
             onClick={closeMenu}
+            className="cursor-pointer hover:text-[#fafbfc]"
           >
             About
           </Link>
@@ -52,6 +56,7 @@ const Navbar = () => {
             offset={50}
             duration={500}
             onClick={closeMenu}
+            className="cursor-pointer hover:text-[#fafbfc]"
           >
             Projects
           </Link>
@@ -74,6 +79,7 @@ const Navbar = () => {
               offset={50}
               duration={500}
               onClick={closeMenu}
+              className="cursor-pointer hover:text-[#fafbfc]"
             >
               Home
             </Link>
@@ -86,6 +92,7 @@ const Navbar = () => {
               offset={50}
               duration={500}
               onClick={closeMenu}
+              className="cursor-pointer hover:text-[#fafbfc]"
             >
               About
             </Link>
@@ -98,6 +105,7 @@ const Navbar = () => {
               offset={50}
               duration={500}
               onClick={closeMenu}
+              className="cursor-pointer hover:text-[#fafbfc]"
             >
               Projects
             </Link>
