@@ -61,6 +61,19 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
+        <li className="p-4">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            onClick={closeMenu}
+            className="cursor-pointer hover:text-[#fafbfc]"
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <FaTimes size={20} /> : <FaBars size={20} />}
@@ -110,6 +123,19 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
+          <li className="p-4">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            onClick={closeMenu}
+            className="cursor-pointer hover:text-[#fafbfc]"
+          >
+            Contact
+          </Link>
+        </li>
         </ul>
       </div>
     </div>
