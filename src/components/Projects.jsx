@@ -10,7 +10,7 @@ const Projects = () => {
           <u>PROJECTS</u>
         </h2>
         <Link to="hero" className="cursor-pointer hover:text-[#fafbfc]">
-          <h4 className="text-white">Back To Top</h4>
+          <h4 className="text-white text-center">Back To Top</h4>
         </Link>
         <span className="line"></span>
         <div className="content">
@@ -114,7 +114,6 @@ const Projects = () => {
               <span class="inline-block bg-red-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 React Icons
               </span>
-        
             </div>
           </div>
         </div>
