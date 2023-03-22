@@ -11,7 +11,7 @@ const About = () => {
           <h2 className="text-black">
             <u>ABOUT</u>
           </h2>
-          <Link to="hero">
+          <Link to="hero" className="cursor-pointer hover:text-[#fafbfc]">
             <h4 className="text-black">Back To Top</h4>
           </Link>
           <span className="line"></span>

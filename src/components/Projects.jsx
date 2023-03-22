@@ -9,7 +9,7 @@ const Projects = () => {
         <h2 className="text-white">
           <u>PROJECTS</u>
         </h2>
-        <Link to="hero">
+        <Link to="hero" className="cursor-pointer hover:text-[#fafbfc]">
           <h4 className="text-white">Back To Top</h4>
         </Link>
         <span className="line"></span>
