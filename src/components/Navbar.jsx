@@ -18,9 +18,9 @@ const Navbar = () => {
   return (
     <div
       id="navbar"
-      className="sticky top-0 z-30 text-white flex justify-between items-center h-24 max-w-[1240px]  mx-auto px-4 sm:px-10  bg-black"
+      className="sticky top-0 z-30 text-white flex justify-between items-center h-24  mx-auto px-4 sm:px-10  bg-black"
     >
-      <Link to="hero">
+      <Link to="hero" className="cursor-pointer">
         <img src={logo} className="h-10 w-10 mr-4" alt="logo" />
       </Link>
 
@@ -80,13 +80,14 @@ const Navbar = () => {
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <FaTimes size={20} /> : <FaBars size={20} />}
-        <ul
+        <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
-              : "ease-in-out duration-500 fixed left-[-100%]"
+              ? "fixed z-10 text-white left-0 top-[0px] w-[75%] h-full ease-in-out duration-500  bg-black md:hidden"
+              : "fixed left-[-100%]"
           }
-        >
+        />
+        <ul>
           <li className="p-4">
             <Link
               to="hero"

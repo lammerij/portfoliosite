@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
-import { FaGithubSquare, FaLinkedin, FaMedium } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import {BsMedium} from "react-icons/bs"
 
 const About = () => {
   return (
@@ -28,8 +29,8 @@ const About = () => {
         <div className="flex flex-wrap justify-center gap-2">
           <a href="https://github.com/lammerij" target="blank">
             <FaGithubSquare
-              className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
-              size={40}
+              className="bg-black-400 p-2 font-semibold text-black inline-flex items-center space-x-2 rounded-full hover:bg-sky-700"
+              size={50}
             />
           </a>
           <a
@@ -37,14 +38,14 @@ const About = () => {
             target="blank"
           >
             <FaLinkedin
-              className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
-              size={40}
+              className="bg-black-400 p-2 font-semibold text-black inline-flex items-center space-x-2 rounded-full hover:bg-sky-700"
+              size={50}
             />
           </a>
           <a href="https://medium.com/@jonathan.lammering" target="blank">
-            <FaMedium
-              className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
-              size={40}
+            <BsMedium
+              className="bg-black-400 p-2 font-semibold text-black inline-flex items-center space-x-2 rounded-full hover:bg-sky-700"
+              size={50}
             />
           </a>
         </div>
