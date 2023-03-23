@@ -34,7 +34,7 @@ const About = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/jonathan-lammering-206247103/"
+            href="https://www.linkedin.com/in/jonathanlammering/"
             target="blank"
           >
             <FaLinkedin
