@@ -21,7 +21,7 @@ const About = () => {
               Engineering, I am eager to apply my problem-solving abilities,
               analytical skills, and team-building expertise, along with my
               recent acquisition of knowledge in JavaScript (ES6), REACT, and
-              Ruby on Rails, to make a an impact on the tech industry and
+              Ruby on Rails, to make a an impact in the tech industry and
               further my growth as an engineer.
             </p>
             <div className="py-5 text-center">
