@@ -68,7 +68,7 @@ const Projects = () => {
                 React
               </span>
               <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Rails
+                Ruby on Rails
               </span>
               <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 HTML
