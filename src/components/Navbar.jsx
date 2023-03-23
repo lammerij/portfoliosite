@@ -16,7 +16,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+    <div
+      id="navbar"
+      className="sticky top-0 z-30 text-white flex justify-between items-center h-24 max-w-[1240px]  mx-auto px-4 sm:px-10  bg-black"
+    >
       <Link to="hero">
         <img src={logo} className="h-10 w-10 mr-4" alt="logo" />
       </Link>
@@ -27,7 +30,7 @@ const Navbar = () => {
             to="hero"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-100}
             duration={500}
             onClick={closeMenu}
             className="cursor-pointer hover:text-[#fafbfc]"
@@ -40,7 +43,7 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-100}
             duration={500}
             onClick={closeMenu}
             className="cursor-pointer hover:text-[#fafbfc]"
@@ -53,7 +56,7 @@ const Navbar = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-100}
             duration={500}
             onClick={closeMenu}
             className="cursor-pointer hover:text-[#fafbfc]"
@@ -66,7 +69,7 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-100}
             duration={500}
             onClick={closeMenu}
             className="cursor-pointer hover:text-[#fafbfc]"
@@ -89,7 +92,7 @@ const Navbar = () => {
               to="hero"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-100}
               duration={500}
               onClick={closeMenu}
               className="cursor-pointer hover:text-[#fafbfc]"
@@ -102,7 +105,7 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-100}
               duration={500}
               onClick={closeMenu}
               className="cursor-pointer hover:text-[#fafbfc]"
@@ -115,7 +118,7 @@ const Navbar = () => {
               to="projects"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-100}
               duration={500}
               onClick={closeMenu}
               className="cursor-pointer hover:text-[#fafbfc]"
@@ -124,18 +127,18 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="p-4">
-          <Link
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-            onClick={closeMenu}
-            className="cursor-pointer hover:text-[#fafbfc]"
-          >
-            Contact
-          </Link>
-        </li>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              onClick={closeMenu}
+              className="cursor-pointer hover:text-[#fafbfc]"
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
