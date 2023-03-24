@@ -39,7 +39,7 @@
 }
 
 .projects .card span {
-  color: var(--primary-color);
+  color: black;
   font-size: 1rem;
   font-weight: 700;
 }

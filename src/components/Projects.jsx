@@ -31,7 +31,7 @@ const Projects = () => {
               </p>
             </div>
             <div class="px-6 pt-4 pb-2 text-center">
-              <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2">
+              <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 React
               </span>
               <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -64,7 +64,7 @@ const Projects = () => {
               </p>
             </div>
             <div class="px-6 pt-4 pb-2 text-center">
-              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-white-700 mr-2 mb-2">
+              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 React
               </span>
               <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
