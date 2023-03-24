@@ -40,12 +40,12 @@ const Contact = () => {
         <div className="flex flex-col lg:flex-row lg:space-x-10 lg:space-y-0 space-y-4  p-8 bg-[#fafbfc] rounded-xl max-w-[75vw] items-center justify-center">
           <div className="flex flex-col justify-between">
             <h1 className="text-4xl font-bold text-black text-center ">
-              Contact Me
+              Let's Connect!
             </h1>
             <p className="pt-2 text-black text-lg tracking-wide text-center">
-              Let's Connect! If you have a question or just want to say Hi
-              &#128075;, use the form to send me a message and I will get back
-              to you as soon as possible!
+              If you have a question or just want to say Hi &#128075;, use the
+              form to send me a message and I will get back to you as soon as
+              possible!
             </p>
 
             <div className="w-full text-black">
