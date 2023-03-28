@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="projects" id="projects">
       <div className="container">
         <h2 className="text-white">
-          <u>PROJECTS</u>
+          <span className='font-mono'>PROJECTS</span>
         </h2>
         <span className="line"></span>
         <div className="content">
@@ -22,10 +22,10 @@ const Projects = () => {
               />
             </a>
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 text-center">
+              <div class="font-bold text-xl mb-2 text-center font-mono">
                 Tennis Club Reviews
               </div>
-              <p class="text-gray-700 text-base">
+              <p class="text-gray-700 text-base ">
                 An app that allows you to create reviews for tennis clubs you've
                 visited or are a member of.
               </p>
@@ -54,7 +54,7 @@ const Projects = () => {
               <img class="w-full" src="/pic.png" alt="goFundit" />
             </a>
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 text-center">goFundit</div>
+              <div class="font-bold text-xl mb-2 text-center font-mono">goFundit</div>
               <p class="text-gray-700 text-base">
                 goFundit is a crowd funding app that allows people to host
                 drives to raise money for a cause/causes they want to support.
@@ -94,7 +94,7 @@ const Projects = () => {
               />
             </a>
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 text-center">Portfolio Website</div>
+              <div class="font-bold text-xl mb-2 text-center font-mono">Portfolio Website</div>
               <p class="text-gray-700 text-base">
                 My first portfolio site to launch my new career in Software
                 Engineering.

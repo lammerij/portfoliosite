@@ -62,4 +62,9 @@
     position: relative;
     width: 50%;
   }
+
+  .projects .font-link{
+    font-family: Oswald;
+  }
+  
 }

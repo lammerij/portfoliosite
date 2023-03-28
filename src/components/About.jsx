@@ -10,7 +10,7 @@ const About = () => {
         <img src="/PROOF- VIVE STUDIO (14 of 95).jpg" alt="profile pic" />
         <div className="col-2">
           <h2 className="text-black">
-            <u>ABOUT</u>
+            <span className='font-mono'>ABOUT</span>
           </h2>
 
           <span className="line"></span>

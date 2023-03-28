@@ -11,6 +11,14 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    if (
+      [name, email, message].some(
+        (value) => value.trim() === ""
+      )
+    ) {
+      alert("Please Fill Out Form, Thank You!");
+      return null;
+    }
 
     emailjs
       .sendForm(
@@ -35,11 +43,11 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="antialiased bg-black-300 px-[12.5%] py-5 ">
-      <div className="flex w-full">
+    <div id="contact" className="antialiased bg-black-300 px-[12.5%] py-5  ">
+      <div className="flex ">
         <div className="flex flex-col lg:flex-row lg:space-x-10 lg:space-y-0 space-y-4  p-8 bg-[#fafbfc] rounded-xl max-w-[75vw] items-center justify-center">
           <div className="flex flex-col justify-between">
-            <h1 className="text-4xl font-bold text-black text-center ">
+            <h1 className="text-4xl font-bold text-black text-center font-mono ">
               Let's Connect!
             </h1>
             <p className="pt-2 text-black text-lg tracking-wide text-center">

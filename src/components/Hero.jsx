@@ -13,10 +13,10 @@ const Hero = () => {
 
         <div className="py-5 text-center">
           <div container max-w-screen-lg mx-auto>
-            <h1 className="max-w-md w-full text-l font-bold text-[hsl(0,13%,97%)] mx-auto justify-center text-center">
+            <h1 className="max-w-md w-full text-l font-bold text-[hsl(0,13%,97%)] mx-auto justify-center text-center font-mono">
               Jonathan | Lammering
             </h1>
-            <p>Full Stack Software Engineer</p>
+            <p className='font-mono'>Full Stack Software Engineer</p>
             <div className="flex md:w-[75%] my-5 text-center justify-center mx-auto">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

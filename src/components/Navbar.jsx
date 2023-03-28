@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <ul className="hidden md:flex">
-        <li className="p-4">
+        <li className="p-4 font-mono">
           <Link
             to="hero"
             spy={true}
@@ -42,7 +42,7 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 font-mono">
           <Link
             to="about"
             spy={true}
@@ -55,7 +55,7 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 font-mono">
           <Link
             to="projects"
             spy={true}
@@ -68,7 +68,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="p-4">
+        <li className="p-4 font-mono">
           <Link
             to="contact"
             spy={true}
@@ -98,7 +98,7 @@ const Navbar = () => {
           <li className="p-4 pt-8 border-b  flex">
             <img src={logo} className="h-10 w-10 mr-4" alt="logo" />
           </li>
-          <li className="p-4 border-b border-[#fc4e4e]">
+          <li className="p-4 font-mono border-b border-white">
             <Link
               to="hero"
               spy={true}
@@ -111,7 +111,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className="p-4 border-b border-[#fc4e4e]">
+          <li className="p-4 font-mono border-b border-white">
             <Link
               to="about"
               spy={true}
@@ -124,7 +124,7 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li className="p-4 border-b border-[#fc4e4e]">
+          <li className="p-4 font-mono border-b border-white">
             <Link
               to="projects"
               spy={true}
@@ -137,7 +137,7 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
-          <li className="p-4 ">
+          <li className="p-4 font-mono  border-b border-white ">
             <Link
               to="contact"
               spy={true}
